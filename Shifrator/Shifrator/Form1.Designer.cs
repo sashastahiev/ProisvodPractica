@@ -75,6 +75,7 @@ namespace Shifrator
             this.textbox1.BackColor = System.Drawing.Color.Azure;
             this.textbox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textbox1.Location = new System.Drawing.Point(12, 109);
+            this.textbox1.MaxLength = 800000;
             this.textbox1.Multiline = true;
             this.textbox1.Name = "textbox1";
             this.textbox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
@@ -88,6 +89,7 @@ namespace Shifrator
             this.textbox2.BackColor = System.Drawing.Color.Azure;
             this.textbox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textbox2.Location = new System.Drawing.Point(564, 109);
+            this.textbox2.MaxLength = 800000;
             this.textbox2.Multiline = true;
             this.textbox2.Name = "textbox2";
             this.textbox2.ScrollBars = System.Windows.Forms.ScrollBars.Both;
